@@ -1,7 +1,7 @@
 public class BinaryRecur {
     public static void main(String args[]) {
         int[] arr = {1, 2, 5, 10, 22, 30};
-        int target = 10;
+        int target = 30;
         int start = 0;
         int end = arr.length - 1;
         int ans = search(arr, target, start, end);
